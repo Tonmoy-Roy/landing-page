@@ -1,5 +1,5 @@
 .body {
-    height: 2000px;
+    height: 5000px;
     border-style: solid;
 }
 
@@ -374,7 +374,7 @@
     opacity: 0px;
     background-color: #FFFFFF;
     /* border-style: solid; */
-    height: 1200px;
+    height: 670px;
     padding: 40px;
 }
 
@@ -467,9 +467,34 @@
 
     /* border-style: solid; */
 }
-.bar4flex{
+
+.bar4flex {
     display: flex;
     margin: auto;
-    border-style: solid;
-    width:60vw;
+    /* border-style: solid; */
+    width: 60vw;
+    margin-bottom: 20px;
+}
+
+.bar5 {
+    margin: auto;
+    height: 30vh;
+    text-align: center;
+    /* border-style: solid; */
+    background-color: #FAFAFA;
+    /* width: 70vw; */
+}
+
+.bar5img {
+    margin-left: 10vw;
+    margin-bottom: 50px;
+}
+
+.footer {
+    width: 1518px;
+    height: 60px;
+    top: 262px;
+    background-color: #252B42;
+    margin: auto;
+    margin-left: -3px;
 }
