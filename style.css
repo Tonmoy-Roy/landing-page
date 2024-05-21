@@ -206,13 +206,15 @@
     font-weight: 500;
     line-height: 20px;
     letter-spacing: 0.20000000298023224px;
+    text-align: center;
     color: #737373;
     width: 520px;
-    /* margin-left: 50px; */
+    margin-left: 50px;
+    margin-bottom: 70px;
     margin: auto;
-    /* margin: auto; */
 }
-.card4flex{
+
+.card4flex {
     display: flex;
 }
 
@@ -225,9 +227,8 @@
     text-align: center;
     background-color: #F3F3F3;
     width: auto;
-    height: 1350px;
+    height: 500px;
     padding: 53px 42px 70px 42px;
-    border-style: solid;
     margin-top: 100px;
 }
 
@@ -238,7 +239,7 @@
     /* border-style: solid; */
     margin: auto;
     padding: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     margin-top: 50px;
 }
 
@@ -290,4 +291,75 @@
     line-height: 57px;
     /* letter-spacing: 0.20000000298023224px; */
     text-align: center;
+}
+
+.bar3 {
+    background-color: #F3F3F3;
+    width: auto;
+    height: 1680px;
+    padding: 53px 42px 106px 42px;
+    /* border-style: solid; */
+}
+
+.card5 {
+    height: 280px;
+    width: 200px;
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    /* border-style: solid; */
+
+}
+
+.card5h5 {
+    width: 130px;
+    height: 48px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    color: #252B42;
+    margin-top: -5px;
+    /* border-style: solid; */
+}
+
+.para4 {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    color: #737373;
+    width: 180px;
+    text-align: left;
+    margin-bottom: 10px;
+    /* border-style: solid; */
+    height:90px;
+    /* margin-top: 80px; */
+}
+
+.img-pos {
+    width: 200px;
+    height: 138px;
+    margin-left: -20px;
+}
+
+.para31 {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    color: #737373;
+    width: 520px;
+    margin: auto;
+    /* border-style: solid; */
+}
+.card5flex{
+    display: flex;
 }
