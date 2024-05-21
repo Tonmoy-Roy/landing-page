@@ -296,7 +296,7 @@
 .bar3 {
     background-color: #F3F3F3;
     width: auto;
-    height: 1680px;
+    height: 600px;
     padding: 53px 42px 106px 42px;
     /* border-style: solid; */
 }
@@ -338,7 +338,7 @@
     text-align: left;
     margin-bottom: 10px;
     /* border-style: solid; */
-    height:90px;
+    height: 90px;
     /* margin-top: 80px; */
 }
 
@@ -360,6 +360,116 @@
     margin: auto;
     /* border-style: solid; */
 }
-.card5flex{
+
+.card5flex {
     display: flex;
+}
+
+.bar4 {
+    width: Fixed (329px)px;
+    height: Hug (1, 493px)px;
+    left: 42.5px;
+    padding: 100px 0px 100px 0px;
+    gap: 100px;
+    opacity: 0px;
+    background-color: #FFFFFF;
+    /* border-style: solid; */
+    height: 1200px;
+    padding: 40px;
+}
+
+.bar4h2 {
+    /* border-style: solid; */
+    height: 15vh;
+}
+
+.power1 {
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.20000000298023224px;
+    /* margin-left: 40px; */
+}
+
+.pow1 {
+    margin-top: -40px;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 57px;
+    /* margin-left: 40px; */
+    /* letter-spacing: 0.20000000298023224px; */
+}
+
+.para5 {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    color: #737373;
+    width: 520px;
+    margin: auto;
+    margin-bottom: 70px;
+    /* border-style: solid; */
+}
+
+.para6 {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    color: #737373;
+    width: 330px;
+    text-align: left;
+    margin-bottom: 40px;
+    /* margin-left: 40px; */
+    /* border-style: solid; */
+}
+
+.img-pos-1 {
+    width: 30vw;
+    height: 50vh;
+    margin-right: 80px;
+}
+
+.quick {
+    display: flex;
+}
+
+.h5s {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    /* border-style: solid; */
+    margin-top: 0px;
+    margin-left: 15px;
+    color: #252B42;
+    margin-bottom: 29px;
+}
+
+.h6s {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    margin-left: 15px;
+    margin-top: -25px;
+    color: #737373;
+
+    /* border-style: solid; */
+}
+.bar4flex{
+    display: flex;
+    margin: auto;
+    border-style: solid;
+    width:60vw;
 }
