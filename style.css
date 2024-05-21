@@ -1,17 +1,16 @@
-
-.body{
-    height:2000px;
-    border-style:solid;
+.body {
+    height: 2000px;
+    border-style: solid;
 }
 
 .bar1 {
     /* border-style: solid; */
     width: 1515px;
-    height: 905px;
+    height: 890px;
     opacity: 0px;
     background-image: url("./images/image\ 1.png");
     background-size: cover;
-    background-color: #FAFAFA;
+    /* background-color: #FAFAFA; */
 }
 
 .nav {
@@ -57,7 +56,8 @@
     margin-right: 50px;
     margin-top: 6vh;
 }
-.star1{
+
+.star1 {
     margin-top: 6vh;
 
 }
@@ -80,7 +80,7 @@
 
 .btnflex {
     display: flex;
-    margin-bottom: 120px;
+    margin-bottom: 110px;
 }
 
 .bar1h4 {
@@ -149,7 +149,6 @@
     height: 200px;
     width: 300px;
     background-color: #00A0C1;
-    /* border-style: solid; */
     margin: auto;
     padding: 20px;
     margin-bottom: 20px;
@@ -199,4 +198,96 @@
     letter-spacing: 0.20000000298023224px;
     text-align: left;
     color: white;
+}
+
+.para3 {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    color: #737373;
+    width: 520px;
+    /* margin-left: 50px; */
+    margin: auto;
+    /* margin: auto; */
+}
+.card4flex{
+    display: flex;
+}
+
+.bar2 {
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    background-color: #F3F3F3;
+    width: auto;
+    height: 1350px;
+    padding: 53px 42px 70px 42px;
+    border-style: solid;
+    margin-top: 100px;
+}
+
+.card4 {
+    height: 190px;
+    width: 200px;
+    background-color: white;
+    /* border-style: solid; */
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.card4h2 {
+    width: 53px;
+    height: 57px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.20000000298023224px;
+    color: #252B42;
+    margin: auto;
+}
+
+.card4h5 {
+    width: 170px;
+    height: 48px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;
+    color: #737373;
+    margin: auto;
+}
+
+.card4hh {
+    width: 170px;
+    height: 48px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;
+    color: #737373;
+}
+
+.power {
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 57px;
+    /* letter-spacing: 0.20000000298023224px; */
+    text-align: center;
 }
