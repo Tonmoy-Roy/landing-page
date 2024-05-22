@@ -1,10 +1,9 @@
-.body {
-    height: 5000px;
+/* .body {
+    height: 10px;
     border-style: solid;
-}
+} */
 
 .bar1 {
-    /* border-style: solid; */
     width: 1515px;
     height: 890px;
     opacity: 0px;
@@ -376,6 +375,7 @@
     /* border-style: solid; */
     height: 670px;
     padding: 40px;
+
 }
 
 .bar4h2 {
@@ -509,7 +509,8 @@
     opacity: 0px;
     height: 720px;
     background-color: #F3F3F3;
-    border-style: solid;
+
+    /* border-style: solid; */
 }
 
 .bar6h2 {
@@ -538,22 +539,33 @@
     width: Fixed (328px)px;
     height: Hug (333px)px;
     padding: 50px 40px 50px 40px;
-    gap: 15px;
-    opacity: 0px;
     background-color: #FFFFFF;
     width: 20vw;
-    margin: auto;
     height: 37vh;
-    text-align: center;
-    margin-bottom: 3vh;
+    /* margin-bottom: 3vh; */
+    margin-left: 296px;
+    position: absolute;
+    margin-top: 30px;
+}
+
+.car3 {
+    width: Fixed (328px)px;
+    height: Hug (333px)px;
+    padding: 50px 40px 50px 40px;
+    background-color: #FFFFFF;
+    width: 20vw;
+    height: 37vh;
+    /* margin-bottom: 3vh; */
+    position: absolute;
+    margin-left: 913px;
+    margin-top: 30px;
+
 }
 
 .car1img {
     width: 60px;
     height: 60px;
-    left: 0.69px;
-    gap: 0px;
-    opacity: 0px;
+    margin-left: 80px;
 }
 
 .car2img {
@@ -611,7 +623,6 @@
     color: #FFFFFF;
     margin-top: -30px;
     margin-bottom: 30px;
-
 }
 
 .car1h5 {
@@ -645,6 +656,7 @@
     border-color: #FFA62B;
     border-radius: 5px;
     margin-top: -5px;
+    margin-left: 50px;
 }
 
 .car2btn {
@@ -668,21 +680,168 @@
     height: Hug (333px)px;
     padding: 50px 40px 50px 40px;
     gap: 15px;
-    opacity: 0px;
     width: 20vw;
     margin: auto;
     height: 45vh;
     text-align: center;
-    margin-bottom: 3vh;
+    position: relative;
+    /* margin-bottom: 3vh; */
 }
 
 .bar6flex {
     display: flex;
-    /* Make the container a flexbox */
-    justify-content: space-between;
-    /* Distribute cards evenly */
-    width: 100%;
-    /* Stretch container to full width */
-    margin: 0 auto;
-    /* border-style: solid; */
+}
+
+.bar7 {
+    height: 350px;
+    padding: 50px;
+    gap: 40px;
+    opacity: 0px;
+    width: 1521px;
+    top: 262px;
+    display: flex;
+    background-color: #16697A;
+    text-align: center;
+}
+
+
+.bar71 {
+    height: 302px;
+    width: Fixed (352px)px;
+    height: Hug (302px)px;
+    left: 31px;
+    padding: 50px 40px 10px 85px;
+    gap: 0px;
+    opacity: 0px;
+    /* text-align: center; */
+    background-color: #FAFAFA;
+}
+
+.bar7h3 {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    color: #252B42;
+    border-style: solid;
+}
+
+.bar7p {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: #737373;
+    margin-bottom: 5vh;
+    width: 25vw;
+}
+
+.bar7btn {
+    width: Hug (160px)px;
+    height: Hug (58px)px;
+    padding: 15px 40px 15px 40px;
+    gap: 10px;
+    border-radius: 5px;
+    opacity: 0px;
+    background-color: #FFA62B;
+    border: none;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+}
+
+.bar72 {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;
+    color: #FFFFFF;
+    margin-left: 244px;
+}
+
+.bar7hh {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;
+    margin-left: 15px;
+    color: #FFFFFF;
+}
+
+.bar7h5 {
+    text-align: left;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.bar77 {
+    text-align: left;
+    font-family: Montserrat;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+}
+
+.bar7hp {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-top: 0px;
+    margin-left: 15px;
+}
+
+.bar7img {
+    width: 22.81px;
+    height: 22.81px;
+    left: 1.19px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.bar7flex {
+    display: flex;
+}
+
+.bar73 {
+    height: 180px;
+    width: Fixed (352px)px;
+    height: Hug (302px)px;
+    left: 31px;
+    padding: 50px 40px 10px 85px;
+    gap: 0px;
+    opacity: 0px;
+    /* text-align: center; */
+    background-color: #FAFAFA;
+    display: flex;
+    justify-content: space-around;
+}
+
+.bar73flex {
+    display: flex;
+}
+
+.bar73img {
+    margin-right: 20px;
+    width: 24px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+
 }
